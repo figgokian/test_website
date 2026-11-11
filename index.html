@@ -1,336 +1,584 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de-CH">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mamani Retreat | Raum für Transformation</title>
+  <title>Mamani Retreat | 1:1-Begleitung in Lebensübergängen</title>
+  <meta name="description"
+        content="Mamani ist ein 1:1-Retreat in der Natur für Menschen mitten in einem Lebensübergang. Drei oder fünf Tage in einem einfachen Holzhaus, begleitet von Sepideh. Eine Person zur gleichen Zeit.">
+  <meta property="og:title" content="Mamani Retreat | 1:1-Begleitung in Lebensübergängen">
+  <meta property="og:description"
+        content="Ein geschützter Raum für Menschen mitten im inneren Wandel. Drei oder fünf Tage in der Natur, eine Person zur gleichen Zeit.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mamani.online/">
+  <meta property="og:image" content="https://mamani.online/img/was.jpeg">
+  <meta name="theme-color" content="#EEEFEA">
 
   <link rel="canonical" href="https://mamani.online/">
 
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Spectral:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap"
+      rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="index.js" defer></script>
-  <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap"
-      rel="stylesheet">
 </head>
 <body>
 
-<nav id="navbar">
-  <div class="nav-logo">
-    <a href="#">
-      <img src="./img/mamani_highres_EEEFEA_71857C.png" alt="Mamani Logo" class="nav-logo-img">
-    </a>
-  </div>
+<a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
 
-  <div class="hamburger" id="hamburger">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
+<nav id="navbar" aria-label="Hauptnavigation">
+  <a href="#top" class="nav-logo">
+    <img src="./img/mamani_highres_EEEFEA_71857C.png" alt="Mamani, zur Startseite" class="nav-logo-img">
+  </a>
 
   <ul class="nav-links" id="nav-links">
-    <li><a href="#was-ist">Was ist Mamani</a></li>
+    <li><a href="#was-ist">Mamani</a></li>
     <li><a href="#die-schwellen">Die Schwellen</a></li>
     <li><a href="#was-passiert">Was passiert</a></li>
-    <li><a href="#wer-ich-bin">Wer ich bin</a></li>
+    <li><a href="#wer-ich-bin">Sepideh</a></li>
     <li><a href="#rahmen">Rahmen</a></li>
-    <li><a href="#preise">Preise</a></li>
-    <li><a href="#kontakt" class="btn-nav">Kontakt</a></li>
+    <li><a href="#formate">Formate</a></li>
+    <li><a href="#fragen">Fragen</a></li>
   </ul>
+
+  <a href="#kontakt" class="btn btn-small nav-cta">Kennenlernen</a>
+
+  <button class="hamburger" id="hamburger" type="button" aria-label="Menü öffnen" aria-expanded="false"
+          aria-controls="nav-links">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
 </nav>
 
-<header class="hero section-creme">
-  <div class="hero-content fade-in appear">
-    <img src="./img/mamani_highres_EEEFEA_71857C.png" alt="Mamani Retreat" class="hero-logo">
-    <h1>Zwischen dem,<br>was zerbricht,<br>und dem,<br>was entstehen will,<br>liegt eine kostbare<br>Schwelle.</h1>
-    <p class="subtitle">Willkommen bei Mamani.</p>
-    <a href="#kontakt" class="btn-primary">Kontakt</a>
+<header class="hero" id="top">
+  <div class="wrap">
+    <h1 class="poem">
+      <span class="poem-line">Zwischen dem,</span>
+      <span class="poem-line">was zerbricht,</span>
+      <span class="poem-rule" aria-hidden="true"></span>
+      <span class="poem-line poem-after">und dem,</span>
+      <span class="poem-line poem-after">was entstehen will,</span>
+      <span class="poem-line poem-after">liegt eine kostbare Schwelle.</span>
+    </h1>
+
+    <div class="hero-foot">
+      <p class="lead">Mamani ist ein Retreat für Menschen mitten im inneren Wandel. Drei oder fünf Tage in einem
+        einfachen Holzhaus in der Natur, begleitet von Sepideh. Immer nur eine Person zur gleichen Zeit.</p>
+      <div class="hero-actions">
+        <a href="#kontakt" class="btn">Kennenlerngespräch anfragen</a>
+        <a href="#was-ist" class="textlink">Zuerst mehr erfahren</a>
+        <p class="fine">Ohne Verpflichtung. Ohne Erwartung.</p>
+      </div>
+    </div>
   </div>
 </header>
 
-<section id="was-ist" class="section-green">
-  <div class="container text-center">
-    <h2 class="fade-in">Was Mamani ist</h2>
-    <div class="text-block fade-in">
-      <p>Mamani ist ein Raum bewusster Anwesenheit. Ein geschützter Rahmen, in dem sich innere Ordnung von selbst zeigen
-        darf.</p>
-      <p>Menschen in Transformationsphasen kommen hier zur Ruhe. Ein Ort, an dem Übergänge nicht beschleunigt, sondern
-        gehalten werden. Ein Retreat für Menschen mitten im inneren Wandel.</p>
-      <p>Hier darf das Alte sich lösen. Hier darf das Neue noch unfertig sein.<br>Es ist ein Raum für Klarheit, Sammlung
-        und innere Neuordnung. Ein Raum, in dem Gedanken sich sortieren, Gefühle Raum bekommen und Entscheidungen aus
-        der eigenen Tiefe entstehen und der Körper zur Ruhe kommt.</p>
-      <p class="highlight-text">Sein ist hier wichtiger als Tun. Innere Wahrhaftigkeit wichtiger als Tempo.<br>Das ist
-        Mamani.</p>
+<main id="inhalt">
+
+  <section class="facts" aria-label="Mamani in Kürze">
+    <div class="wrap">
+      <dl class="facts-list">
+        <div>
+          <dt>Eine Person</dt>
+          <dd>1:1 begleitet, keine Gruppe</dd>
+        </div>
+        <div>
+          <dt>3 oder 5 Tage</dt>
+          <dd>mit der Möglichkeit eines Zusatztags</dd>
+        </div>
+        <div>
+          <dt>Holzhaus in der Natur</dt>
+          <dd>bewusst auf das Wesentliche reduziert</dd>
+        </div>
+        <div>
+          <dt>Geräte ruhen</dt>
+          <dd>damit das Innere wieder hörbar wird</dd>
+        </div>
+      </dl>
     </div>
+  </section>
 
-    <div class="image-wrapper fade-in margin-top-large">
-      <img src="./img/was.jpeg" alt="Atmosphäre Mamani" class="content-image wide-image">
-    </div>
-
-    <h3 class="margin-top-large fade-in">Wieso Mamani?</h3>
-    <div class="text-block fade-in">
-      <p>Ein Retreat bei Mamani ist kein festgelegtes Ziel. Es ist ein Raum, in dem sich zeigen darf, was bereit ist. Du
-        kommst mit dem, was dich bewegt. Mit Fragen oder ohne. Mit Klarheit oder Verwirrung.</p>
-      <p>Du verlässt Mamani nicht verändert im Sinne von „neu gemacht“. Du verlässt es sortierter. Verbundener.
-        Aufgerichteter und mit dem, was sich aus dir heraus entfalten wollte.</p>
-
-      <p class="signature margin-top-large">Mamani ist die Stimme eines Kindes, das auf Persisch nach seiner Grossmutter
-        ruft. Ein Ruf aus dem Herzen.<br>So ruft mein Sohn auch meine Mutter.</p>
-    </div>
-  </div>
-</section>
-
-<section id="die-schwellen" class="section-creme">
-  <div class="container">
-    <h2 class="text-center fade-in">Die Natur des Übergangs</h2>
-    <h3 class="text-center fade-in">Die Schwellen</h3>
-
-    <div class="text-block text-center fade-in" style="max-width: 800px; margin: 0 auto;">
-      <p class="signature margin-top-large" style="margin-bottom: 30px;">Vielleicht befindest du dich gerade an einem
-        Punkt in deinem Leben, an dem etwas sich neu ordnen will, ob es sich erst als Unruhe zeigt, bereits als Wahrheit
-        oder schon als Bewegung.</p>
-      <p>Eine Schwelle ist kein Ort der schnellen Lösung. Sie ist der Moment, an dem ein Mensch innehält und beginnt zu
-        spüren, dass sich sein Leben neu ordnen will. Mamani ist ein Raum für genau diese Momente.</p>
-      <p>Du kommst nicht hierher, weil alles zusammengebrochen ist. Und auch nicht, weil bereits alles entschieden und
-        geklärt ist. Du kommst in einer Phase dazwischen.</p>
-    </div>
-
-    <div class="text-center margin-top-large fade-in">
-      <p class="highlight-text">Diese Übergänge verlaufen oft in drei natürlichen Bewegungen.</p>
-    </div>
-
-    <div class="grid-2-col margin-top-large">
-      <div class="grid-item fade-in">
-        <p><strong>Zuerst entsteht eine innere Unruhe.</strong><br>
-          Etwas im eigenen Leben beginnt zu fragen. Gewohnte Strukturen passen nicht mehr ganz, doch die Richtung ist
-          noch nicht klar.<br>
-          Hier begleite ich dich dabei, diese Unruhe ernst zu nehmen, ohne sie sofort erklären oder lösen zu müssen.
-          Gemeinsam geben wir ihr Raum, bis sich langsam zeigt, was in deinem Leben gesehen werden möchte. So wird
-          spürbar, dass Unruhe kein Feind ist, sondern oft das erste ehrliche Signal einer inneren Bewegung.</p>
-
-        <p style="margin-top: 40px;"><strong>Dann kommt manchmal der Moment der Wahrheit.</strong><br>
-          Eine Erkenntnis wird klarer. Eine Entscheidung beginnt sich abzuzeichnen. Das kann befreiend und gleichzeitig
-          beunruhigend sein. In dieser Phase erkennen und halten wir deine Wahrheit, ohne sie zu verhandeln. Du bekommst
-          ein Gefühl dafür, wie deine Klarheit dein Nervensystem reguliert, während gleichzeitig innere Widersprüche
-          gehalten werden können.</p>
+  <section id="was-ist" class="section">
+    <div class="wrap split">
+      <div class="split-head">
+        <h2>Was Mamani ist</h2>
       </div>
+      <div class="split-body prose">
+        <p class="opening">Mamani ist ein Raum bewusster Anwesenheit. Ein geschützter Rahmen, in dem sich innere
+          Ordnung von selbst zeigen darf.</p>
+        <p>Menschen in Transformationsphasen kommen hier zur Ruhe. Ein Ort, an dem Übergänge nicht beschleunigt, sondern
+          gehalten werden. Ein Retreat für Menschen mitten im inneren Wandel.</p>
+        <p>Hier darf das Alte sich lösen. Hier darf das Neue noch unfertig sein.<br>Es ist ein Raum für Klarheit,
+          Sammlung und innere Neuordnung. Ein Raum, in dem Gedanken sich sortieren, Gefühle Raum bekommen und
+          Entscheidungen aus der eigenen Tiefe entstehen und der Körper zur Ruhe kommt.</p>
+      </div>
+    </div>
 
-      <div class="grid-item fade-in">
-        <p><strong>Schließlich beginnt der Übergang selbst.</strong><br>
-          Etwas bewegt sich. Eine Entscheidung geschieht, ein Lebensabschnitt verändert sich, eine neue Richtung
-          entsteht.<br>
-          In dieser offenen Zeit entstehen häufig Fragen nach Orientierung, Identität, innerer Ordnung und dem eigenen
-          Weg. Gleichzeitig kann genau hier ein tieferes Selbstbewusstsein wachsen: das Erkennen der eigenen Muster und
-          Bewegungen sowie die Neugier auf das eigene Selbst.</p>
+    <figure class="wide-figure wrap-wide">
+      <img src="./img/was.jpeg" alt="Atmosphäre bei Mamani" loading="lazy">
+    </figure>
 
-        <div class="text-block" style="margin-top: 40px;">
-          <p>Mamani versteht diese Phasen nicht als Probleme, die gelöst werden müssen. Sondern als natürliche Schwellen
-            im Leben eines Menschen.</p>
-          <p>Der Raum von Mamani ist dafür da, solche Übergänge bewusst zu betreten: mit Ruhe, Aufmerksamkeit und der
-            Freiheit, das eigene Leben aus einem anderen Winkel neu zu betrachten.</p>
+    <div class="wrap split">
+      <div class="split-head">
+        <h2>Wieso Mamani?</h2>
+      </div>
+      <div class="split-body prose">
+        <p>Ein Retreat bei Mamani ist kein festgelegtes Ziel. Es ist ein Raum, in dem sich zeigen darf, was bereit ist.
+          Du kommst mit dem, was dich bewegt. Mit Fragen oder ohne. Mit Klarheit oder Verwirrung.</p>
+        <p>Du verlässt Mamani nicht verändert im Sinne von „neu gemacht“. Du verlässt es sortierter. Verbundener.
+          Aufgerichteter und mit dem, was sich aus dir heraus entfalten wollte.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" aria-label="Leitsatz">
+    <div class="wrap">
+      <p class="band-quote">Sein ist hier wichtiger als Tun.<br>Innere Wahrhaftigkeit wichtiger als Tempo.</p>
+      <p class="band-note">Mamani ist die Stimme eines Kindes, das auf Persisch nach seiner Grossmutter ruft. Ein Ruf
+        aus dem Herzen. So ruft mein Sohn auch meine Mutter.</p>
+    </div>
+  </section>
+
+  <section id="die-schwellen" class="section">
+    <div class="wrap split">
+      <div class="split-head">
+        <h2>Die Schwellen</h2>
+        <p class="aside">Die Natur des Übergangs</p>
+      </div>
+      <div class="split-body prose">
+        <p class="opening">Vielleicht befindest du dich gerade an einem Punkt in deinem Leben, an dem etwas sich neu
+          ordnen will, ob es sich erst als Unruhe zeigt, bereits als Wahrheit oder schon als Bewegung.</p>
+        <p>Eine Schwelle ist kein Ort der schnellen Lösung. Sie ist der Moment, an dem ein Mensch innehält und beginnt
+          zu spüren, dass sich sein Leben neu ordnen will. Mamani ist ein Raum für genau diese Momente.</p>
+        <p>Du kommst nicht hierher, weil alles zusammengebrochen ist. Und auch nicht, weil bereits alles entschieden und
+          geklärt ist. Du kommst in einer Phase dazwischen.</p>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="schwellen" id="schwellen">
+        <h3 class="schwellen-title">Diese Übergänge verlaufen oft in drei natürlichen Bewegungen. Wo stehst du
+          gerade?</h3>
+
+        <div class="track" role="tablist" aria-label="Die drei Bewegungen">
+          <button type="button" role="tab" id="tab-unruhe" aria-controls="panel-unruhe" aria-selected="true">
+            <span class="track-num">1</span><span class="track-name">Unruhe</span>
+          </button>
+          <button type="button" role="tab" id="tab-wahrheit" aria-controls="panel-wahrheit" aria-selected="false"
+                  tabindex="-1">
+            <span class="track-num">2</span><span class="track-name">Wahrheit</span>
+          </button>
+          <button type="button" role="tab" id="tab-uebergang" aria-controls="panel-uebergang" aria-selected="false"
+                  tabindex="-1">
+            <span class="track-num">3</span><span class="track-name">Übergang</span>
+          </button>
+        </div>
+
+        <div class="panel" role="tabpanel" id="panel-unruhe" aria-labelledby="tab-unruhe" tabindex="0">
+          <h4>Zuerst entsteht eine innere Unruhe.</h4>
+          <div class="prose">
+            <p>Etwas im eigenen Leben beginnt zu fragen. Gewohnte Strukturen passen nicht mehr ganz, doch die Richtung
+              ist noch nicht klar.</p>
+            <p>Hier begleite ich dich dabei, diese Unruhe ernst zu nehmen, ohne sie sofort erklären oder lösen zu
+              müssen. Gemeinsam geben wir ihr Raum, bis sich langsam zeigt, was in deinem Leben gesehen werden möchte.
+              So wird spürbar, dass Unruhe kein Feind ist, sondern oft das erste ehrliche Signal einer inneren
+              Bewegung.</p>
+            <p><a href="#kontakt" class="textlink" data-schwelle="Unruhe">Hier stehe ich. Kennenlernen anfragen</a></p>
+          </div>
+        </div>
+
+        <div class="panel" role="tabpanel" id="panel-wahrheit" aria-labelledby="tab-wahrheit" tabindex="0">
+          <h4>Dann kommt manchmal der Moment der Wahrheit.</h4>
+          <div class="prose">
+            <p>Eine Erkenntnis wird klarer. Eine Entscheidung beginnt sich abzuzeichnen. Das kann befreiend und
+              gleichzeitig beunruhigend sein.</p>
+            <p>In dieser Phase erkennen und halten wir deine Wahrheit, ohne sie zu verhandeln. Du bekommst ein Gefühl
+              dafür, wie deine Klarheit dein Nervensystem reguliert, während gleichzeitig innere Widersprüche gehalten
+              werden können.</p>
+            <p><a href="#kontakt" class="textlink" data-schwelle="Wahrheit">Hier stehe ich. Kennenlernen anfragen</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="panel" role="tabpanel" id="panel-uebergang" aria-labelledby="tab-uebergang" tabindex="0">
+          <h4>Schliesslich beginnt der Übergang selbst.</h4>
+          <div class="prose">
+            <p>Etwas bewegt sich. Eine Entscheidung geschieht, ein Lebensabschnitt verändert sich, eine neue Richtung
+              entsteht.</p>
+            <p>In dieser offenen Zeit entstehen häufig Fragen nach Orientierung, Identität, innerer Ordnung und dem
+              eigenen Weg. Gleichzeitig kann genau hier ein tieferes Selbstbewusstsein wachsen: das Erkennen der eigenen
+              Muster und Bewegungen sowie die Neugier auf das eigene Selbst.</p>
+            <p><a href="#kontakt" class="textlink" data-schwelle="Übergang">Hier stehe ich. Kennenlernen anfragen</a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="wrap split split-tight">
+      <div class="split-head"></div>
+      <div class="split-body prose">
+        <p>Mamani versteht diese Phasen nicht als Probleme, die gelöst werden müssen. Sondern als natürliche Schwellen
+          im Leben eines Menschen.</p>
+        <p>Der Raum von Mamani ist dafür da, solche Übergänge bewusst zu betreten: mit Ruhe, Aufmerksamkeit und der
+          Freiheit, das eigene Leben aus einem anderen Winkel neu zu betrachten.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="was-passiert" class="section section-tint">
+    <div class="wrap split">
+      <div class="split-head sticky">
+        <h2>Was passiert bei Mamani</h2>
+        <figure class="side-figure">
+          <img src="./img/what.jpeg" alt="Draussen bei Mamani" loading="lazy">
+        </figure>
+      </div>
+
+      <div class="split-body">
+        <article class="element">
+          <h3>Geist</h3>
+          <div class="prose">
+            <p>Gespräche bei Mamani öffnen einen ruhigen Raum, in dem Gedanken ausgesprochen und betrachtet werden
+              können.</p>
+            <p>Im Gespräch wird oft sichtbar, wie schnell sich der Verstand in Gedankenschleifen verfängt. Fragen
+              wiederholen sich, Antworten drehen sich im Kreis.<br>
+              Durch Aufmerksamkeit, ehrliches Hinschauen und gezielte Unterbrechungen dieser Schleifen kann sich
+              plötzlich etwas verschieben. Gedanken ordnen sich neu und eine andere Form von Klarheit wird spürbar.</p>
+          </div>
+        </article>
+
+        <article class="element">
+          <h3>Körper</h3>
+          <div class="prose">
+            <p>Übergänge zeigen sich nicht nur im Denken.<br>
+              Auch der Körper trägt Spannungen, Erfahrungen und Emotionen. Manchmal zeigt sich das als Unruhe, Müdigkeit
+              oder innere Anspannung.</p>
+            <p>Bewegung hilft, diesen Zustand zu regulieren. Das kann eine ruhige Körperpraxis sein, ein Spaziergang
+              oder auch eine körperlich intensivere Aktivität in der Natur. Der Körper wird dabei Teil des Prozesses. Du
+              entscheidest, welche Form der Bewegung deinen inneren Prozess unterstützt.</p>
+          </div>
+        </article>
+
+        <article class="element">
+          <h3>Nervensystem</h3>
+          <div class="prose">
+            <p>Veränderung berührt vor allem das Nervensystem.</p>
+            <p>Wenn sich alte Strukturen lösen oder Entscheidungen näher rücken, entsteht häufig ein Zustand innerer
+              Spannung. Gedanken beschleunigen sich, der Körper reagiert, Ruhe wird schwer zugänglich.<br>
+              In der gemeinsamen Zeit entsteht Raum, in dem sich das Nervensystem wieder beruhigen und stabilisieren
+              kann. Mit dieser inneren Ruhe wird es möglich, Klarheit wahrzunehmen, ohne von innerem Druck überlagert zu
+              sein.</p>
+          </div>
+        </article>
+
+        <article class="element">
+          <h3>Natur</h3>
+          <div class="prose">
+            <p>Die Natur ist einer der wichtigsten Räume von Mamani. Draussen zeigt sich Wandel in seiner natürlichsten
+              Form: etwas vergeht, etwas verändert sich, etwas beginnt neu zu wachsen. Ohne Eile. Ohne Widerstand. Ohne
+              Erklärung.</p>
+            <p>Nicht als Konzept, sondern sichtbar vor Augen.</p>
+            <p>Zeit in der Natur bedeutet beobachten, gehen, stehen bleiben, weitergehen.<br>
+              Während wir die Natur wahrnehmen, beginnt sich oft auch der Blick auf das eigene Leben zu verändern.
+              Bewegungen, die zuvor fest oder unklar erschienen, werden plötzlich sichtbar.</p>
+            <p>Die Natur wird bei Mamani nicht als Kulisse genutzt. Wir lernen von ihr und begegnen ihr mit Respekt.
+              Auch Tiere sind Teil dieses Raumes und begegnen uns manchmal als stille Begleiter.</p>
+          </div>
+        </article>
+
+        <article class="element">
+          <h3>Rituale</h3>
+          <div class="prose">
+            <p>Seit jeher begleiten Menschen Übergänge mit Ritualen. Ein Ritual macht sichtbar, was innerlich bereits
+              geschieht: ein Abschnitt wird gewürdigt, etwas wird bewusst losgelassen oder ein neuer Schritt wird
+              betreten.</p>
+            <p>Bei Mamani gibt es keine festgelegten Rituale. Sie entstehen aus dem Moment und aus der Schwelle, an der
+              du gerade stehst.</p>
+            <p>Manchmal ist es eine kleine Handlung in der Natur, ein bewusst gesetzter Schritt, ein Gegenstand, der für
+              einen Übergang steht, oder ein stiller Moment, der eine Entscheidung im eigenen Erleben verankert.</p>
+            <p>Rituale geben dem Unsichtbaren eine Form. Nicht als Symbol, sondern als Handlung.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band-cta" aria-label="Einladung">
+    <div class="wrap">
+      <p class="band-quote">Möchtest du deiner Schwelle in einem Raum begegnen, der dich hält?</p>
+      <a href="#kontakt" class="btn btn-light">Kennenlerngespräch anfragen</a>
+    </div>
+  </section>
+
+  <section id="wer-ich-bin" class="section">
+    <div class="wrap duo">
+      <figure class="portrait">
+        <img src="./img/wer.jpeg" alt="Portrait von Sepideh" loading="lazy">
+      </figure>
+      <div class="duo-text">
+        <h2>Ich bin Sepideh.</h2>
+        <div class="prose">
+          <p class="opening">Ich kenne Brüche. Ich kenne das Gefühl, wenn ein altes Leben endet, bevor ein neues
+            sichtbar ist. Ich kenne Zeiten ohne Struktur, ohne Sicherheit, ohne klaren Boden.</p>
+          <p>Ich begleite Menschen in persönlichen Umbrüchen und tiefen Transformationsphasen, während sie sich
+            erinnern.</p>
+          <p>Ich glaube, dass alles Wesentliche aus dem Inneren entsteht. Nicht durch Optimierung. Nicht durch
+            Selbstkorrektur. Sondern durch ehrliche Begegnung mit dem, was ist. Meine Arbeit beginnt mit Präsenz. Ich
+            halte Räume, in denen etwas stirbt und gleichzeitig etwas geboren wird.</p>
+          <p class="signature">Jede Begegnung entsteht neu.<br>Persönlich. Nah. Echt.<br>Meine Ausrichtung ist
+            individuell. Wie du.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="rahmen" class="section section-tint">
+    <div class="wrap duo duo-reverse">
+      <div class="duo-text">
+        <h2>Der Rahmen</h2>
+        <div class="prose">
+          <p>Mamani findet in einem einfachen Holzhaus inmitten der Natur statt. Der Ort wird jeweils von mir achtsam
+            und passend zu deinem Prozess gewählt und im Vorfeld bekanntgegeben.</p>
+          <p>Der Aufenthalt ist bewusst auf das Wesentliche reduziert. Für einfache, ehrliche Verpflegung ist
+            gesorgt.</p>
+          <p>Das gemeinsame Sein darf selbstverständlich werden, ob im Tun oder im Lassen. Nichts muss. Vieles ordnet
+            sich von selbst.</p>
+          <p><strong>Digital Detox.</strong> Während des Retreats ruhen elektronische Geräte. Der äussere Lärm darf
+            still werden, damit das Innere wieder hörbar wird.</p>
+          <p>Mamani ist auf eine Person zur gleichen Zeit ausgerichtet. So entsteht ein stiller, geschützter Raum.</p>
+          <p>Jedem Aufenthalt geht ein Kennenlernen voraus, um die gegenseitige Stimmigkeit zu prüfen.</p>
+        </div>
+      </div>
+      <figure class="portrait">
+        <img src="./img/rahmen2.jpeg" alt="Das Holzhaus in der Natur" loading="lazy">
+      </figure>
+    </div>
+
+    <div class="wrap">
+      <aside class="notice">
+        <h3>Verantwortung</h3>
+        <div class="prose">
+          <p>Mamani ist ein Raum für persönliche Übergänge und für Menschen, die bereit sind, sich selbst wahrhaftig zu
+            begegnen. Es ist kein therapeutisches Angebot.</p>
+          <p>Wenn jemand aktuell mit Suchterkrankungen, schweren mentalen Belastungen oder akuten Krisen lebt, kann es
+            sein, dass Mamani nicht der passende Rahmen ist. Zeigt sich im Kennenlerngespräch, dass eine andere Form der
+            Begleitung hilfreicher wäre, empfehle ich gerne entsprechende Fachstellen.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section id="formate" class="section">
+    <span id="preise"></span>
+    <div class="wrap split">
+      <div class="split-head">
+        <h2>Formate</h2>
+      </div>
+      <div class="split-body prose">
+        <p class="opening">Mamani ist als 1:1 Intensivbegleitung konzipiert. Reduziert. Naturnah. Bewusst begrenzt. Es
+          ist ein Übergangsraum. Du wählst den Zeitraum, der deinem Prozess entspricht.</p>
+      </div>
+    </div>
+
+    <figure class="wide-figure wrap-wide">
+      <img src="./img/price.jpeg" alt="Der Raum" loading="lazy">
+    </figure>
+
+    <div class="wrap">
+      <div class="formats">
+        <article class="format">
+          <h3>3 Tage <span>2 Nächte</span></h3>
+          <p class="format-sub">Von Unruhe zur Orientierung</p>
+          <div class="prose">
+            <p>Drei Tage sind ein bewusster Schritt aus dem Gewohnten. Ein Innehalten. Ein Ankommen. Der Alltag tritt in
+              den Hintergrund. Gedanken dürfen sich sortieren. Das, was innerlich durcheinander war, bekommt Raum.</p>
+            <p>Drei Tage öffnen einen Übergang. Ohne Ziel. Ohne Erwartung. Nur mit der Bereitschaft, sich selbst zu
+              begegnen.</p>
+          </div>
+        </article>
+
+        <article class="format">
+          <h3>5 Tage <span>4 Nächte</span></h3>
+          <p class="format-sub">Von Orientierung zur Tragfähigkeit</p>
+          <div class="prose">
+            <p>Fünf Tage folgen einem anderen Rhythmus. Was in den ersten Tagen sichtbar wird, darf bleiben. Was sich
+              gezeigt hat, darf vertieft werden. Was in Bewegung kam, darf durchlaufen werden.</p>
+            <p>Fünf Tage erlauben Vertiefung in die Tragfähigkeit und eine erste Integration. Um das Durchgehen statt
+              nur Berühren. Das Bleiben, wenn es still oder unruhig wird.</p>
+          </div>
+        </article>
+
+        <article class="format format-extra">
+          <h3>Zusatztag <span>und -nacht</span></h3>
+          <div class="prose">
+            <p>Nicht alles lässt sich im Voraus bestimmen. Wenn der Prozess es verlangt, bleibt der Raum geöffnet. Ein
+              weiterer Tag darf sich anschliessen, wenn sich der Wunsch nach mehr Raum zeigt. Wir stimmen uns gemeinsam
+              ab.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="terms-line">
+        <p>Angebot und individuelle Konditionen werden nach einem persönlichen Erstgespräch besprochen.</p>
+        <a href="#kontakt" class="btn">Erstgespräch anfragen</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="ablauf" class="section section-tint">
+    <div class="wrap split">
+      <div class="split-head">
+        <h2>So beginnt es</h2>
+      </div>
+      <ol class="split-body steps">
+        <li>
+          <h3>Du schreibst mir</h3>
+          <p>Ein paar Zeilen genügen. Du musst nichts erklären können und nichts entschieden haben.</p>
+        </li>
+        <li>
+          <h3>Wir lernen uns kennen</h3>
+          <p>In einem ersten Gespräch klären wir in Ruhe, ob der Raum für dich und dein Anliegen stimmig ist. Ohne
+            Verpflichtung. Ohne Erwartung.</p>
+        </li>
+        <li>
+          <h3>Zeitraum und Ort</h3>
+          <p>Du wählst den Zeitraum, der deinem Prozess entspricht. Ich wähle den Ort passend dazu und gebe ihn dir im
+            Vorfeld bekannt.</p>
+        </li>
+        <li>
+          <h3>Dein Aufenthalt</h3>
+          <p>Mit der Anzahlung ist dein Aufenthalt verbindlich reserviert. Der Raum wird exklusiv für dich freigehalten
+            und vorbereitet.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="fragen" class="section">
+    <div class="wrap split">
+      <div class="split-head">
+        <h2>Häufige Fragen</h2>
+      </div>
+      <div class="split-body faq">
+        <details>
+          <summary>Muss ich wissen, was ich will?</summary>
+          <div class="prose">
+            <p>Nein. Du kommst mit dem, was dich bewegt. Mit Fragen oder ohne. Mit Klarheit oder Verwirrung. Ein Retreat
+              bei Mamani ist kein festgelegtes Ziel.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Ist Mamani eine Therapie?</summary>
+          <div class="prose">
+            <p>Nein. Mamani ist kein therapeutisches Angebot. Zeigt sich im Kennenlerngespräch, dass eine andere Form
+              der Begleitung hilfreicher wäre, empfehle ich gerne entsprechende Fachstellen.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Wo findet das Retreat statt?</summary>
+          <div class="prose">
+            <p>In einem einfachen Holzhaus inmitten der Natur. Der Ort wird jeweils von mir achtsam und passend zu
+              deinem Prozess gewählt und im Vorfeld bekanntgegeben.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Sind noch andere Gäste dort?</summary>
+          <div class="prose">
+            <p>Nein. Mamani ist auf eine Person zur gleichen Zeit ausgerichtet. So entsteht ein stiller, geschützter
+              Raum.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Was kostet ein Aufenthalt?</summary>
+          <div class="prose">
+            <p>Angebot und individuelle Konditionen werden nach einem persönlichen Erstgespräch besprochen.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Termin, Anzahlung und Rücktritt</summary>
+          <div class="prose">
+            <p>Mit der Buchung wird eine Anzahlung von 50 % des Gesamtbetrags fällig. Erst mit Eingang der Anzahlung ist
+              der Aufenthalt verbindlich reserviert.</p>
+            <p>Der Restbetrag ist spätestens zwei Wochen vor Retreatbeginn zu begleichen. Bei einer Absage bis zu diesem
+              Zeitpunkt bleibt die Anzahlung bestehen. Danach wird der volle Betrag fällig, da der Raum exklusiv für
+              dich freigehalten und vorbereitet ist.</p>
+            <p>Im Krankheitsfall ist eine einmalige Verschiebung möglich, sofern die Mitteilung spätestens 48 Stunden
+              vor Retreatbeginn erfolgt. Die Anzahlung wird auf den neuen Termin angerechnet.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Bleibt, was ich teile, vertraulich?</summary>
+          <div class="prose">
+            <p>Ja. Alles, was du während deines Aufenthalts teilst, wird von mir vertraulich behandelt. Der Raum von
+              Mamani ist geschützt und bleibt frei von Weitergabe an Dritte.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt" class="section section-dark">
+    <div class="wrap contact">
+      <div class="contact-text">
+        <h2>Wenn du spürst, dass Mamani dich ruft</h2>
+        <div class="prose">
+          <p>Melde dich für ein erstes Kennenlernen. In diesem Gespräch klären wir in Ruhe, ob der Raum für dich und
+            dein Anliegen stimmig ist. Ohne Verpflichtung. Ohne Erwartung.</p>
+        </div>
+
+        <form class="composer" id="composer" action="mailto:sepideh_karimi@icloud.com" method="get">
+          <label for="c-name">Dein Name</label>
+          <input type="text" id="c-name" name="name" autocomplete="name">
+
+          <fieldset>
+            <legend>Wo stehst du gerade? <span class="optional">(freiwillig)</span></legend>
+            <div class="chips">
+              <label><input type="radio" name="schwelle" value="Unruhe"><span>Unruhe</span></label>
+              <label><input type="radio" name="schwelle" value="Wahrheit"><span>Wahrheit</span></label>
+              <label><input type="radio" name="schwelle" value="Übergang"><span>Übergang</span></label>
+              <label><input type="radio" name="schwelle" value="Ich weiss es noch nicht"><span>Ich weiss es noch
+                  nicht</span></label>
+            </div>
+          </fieldset>
+
+          <label for="c-text">Was möchtest du mir sagen? <span class="optional">(freiwillig)</span></label>
+          <textarea id="c-text" name="text" rows="4"></textarea>
+
+          <button type="submit" class="btn btn-light">E-Mail an Sepideh vorbereiten</button>
+          <p class="fine">Es öffnet sich dein E-Mail-Programm mit einem Entwurf. Auf dieser Seite wird nichts
+            gespeichert oder versendet.</p>
+        </form>
+
+        <p class="direct">Oder schreibe direkt an
+          <a href="mailto:sepideh_karimi@icloud.com?subject=Kennenlernen%20Mamani" id="mail-link">sepideh_karimi@icloud.com</a>
+          <button type="button" class="copy" id="copy-mail" data-mail="sepideh_karimi@icloud.com">Adresse kopieren
+          </button>
+        </p>
+        <p class="fine">Wenn ich nicht unmittelbar antworte, befinde ich mich gerade in einem Aufenthalt. Ich melde mich
+          zeitnah bei dir.</p>
+        <p class="signature">Ich freue mich auf dich.</p>
+      </div>
+
+      <figure class="portrait contact-figure">
+        <img src="./img/contact.jpeg" alt="Impression von Mamani" loading="lazy">
+      </figure>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <p>Mamani Retreat</p>
+    <p><a href="mailto:sepideh_karimi@icloud.com">sepideh_karimi@icloud.com</a></p>
+    <p><a href="#top">Nach oben</a></p>
   </div>
-</section>
+</footer>
 
-<section id="was-passiert" class="section-green">
-  <div class="container">
-    <h2 class="text-center fade-in">Was passiert bei Mamani</h2>
-
-    <div class="image-wrapper fade-in margin-bottom-small margin-top-large">
-      <img src="./img/what.jpeg" alt="Was passiert bei Mamani" class="content-image wide-image">
-    </div>
-
-    <div class="grid-2-col margin-top-large">
-      <div class="grid-item fade-in">
-        <h4 class="sub-heading">Geist</h4>
-        <p>Gespräche bei Mamani öffnen einen ruhigen Raum, in dem Gedanken ausgesprochen und betrachtet werden
-          können.</p>
-        <p>Im Gespräch wird oft sichtbar, wie schnell sich der Verstand in Gedankenschleifen verfängt. Fragen
-          wiederholen sich, Antworten drehen sich im Kreis.<br>
-          Durch Aufmerksamkeit, ehrliches Hinschauen und gezielte Unterbrechungen dieser Schleifen kann sich plötzlich
-          etwas verschieben. Gedanken ordnen sich neu und eine andere Form von Klarheit wird spürbar.</p>
-
-        <h4 class="sub-heading margin-top-large">Körper</h4>
-        <p>Übergänge zeigen sich nicht nur im Denken.<br>
-          Auch der Körper trägt Spannungen, Erfahrungen und Emotionen. Manchmal zeigt sich das als Unruhe, Müdigkeit
-          oder innere Anspannung.</p>
-        <p>Bewegung hilft, diesen Zustand zu regulieren. Das kann eine ruhige Körperpraxis sein, ein Spaziergang oder
-          auch eine körperlich intensivere Aktivität in der Natur. Der Körper wird dabei Teil des Prozesses. Du
-          entscheidest, welche Form der Bewegung deinen inneren Prozess unterstützt.</p>
-
-        <h4 class="sub-heading margin-top-large">Nervensystem</h4>
-        <p>Veränderung berührt vor allem das Nervensystem.</p>
-        <p>Wenn sich alte Strukturen lösen oder Entscheidungen näher rücken, entsteht häufig ein Zustand innerer
-          Spannung. Gedanken beschleunigen sich, der Körper reagiert, Ruhe wird schwer zugänglich.<br>
-          In der gemeinsamen Zeit entsteht Raum, in dem sich das Nervensystem wieder beruhigen und stabilisieren kann.
-          Mit dieser inneren Ruhe wird es möglich, Klarheit wahrzunehmen, ohne von innerem Druck überlagert zu sein.</p>
-      </div>
-
-      <div class="grid-item fade-in">
-        <h4 class="sub-heading">Natur</h4>
-        <p>Die Natur ist einer der wichtigsten Räume von Mamani. Draussen zeigt sich Wandel in seiner natürlichsten
-          Form: etwas vergeht, etwas verändert sich, etwas beginnt neu zu wachsen. Ohne Eile. Ohne Widerstand. Ohne
-          Erklärung.</p>
-        <p>Nicht als Konzept, sondern sichtbar vor Augen.</p>
-        <p>Zeit in der Natur bedeutet beobachten, gehen, stehen bleiben, weitergehen.<br>
-          Während wir die Natur wahrnehmen, beginnt sich oft auch der Blick auf das eigene Leben zu verändern.
-          Bewegungen, die zuvor fest oder unklar erschienen, werden plötzlich sichtbar.</p>
-        <p>Die Natur wird bei Mamani nicht als Kulisse genutzt. Wir lernen von ihr und begegnen ihr mit Respekt. Auch
-          Tiere sind Teil dieses Raumes und begegnen uns manchmal als stille Begleiter.</p>
-
-        <h4 class="sub-heading margin-top-large">Rituale</h4>
-        <p>Seit jeher begleiten Menschen Übergänge mit Ritualen. Ein Ritual macht sichtbar, was innerlich bereits
-          geschieht: ein Abschnitt wird gewürdigt, etwas wird bewusst losgelassen oder ein neuer Schritt wird
-          betreten.</p>
-        <p>Bei Mamani gibt es keine festgelegten Rituale. Sie entstehen aus dem Moment und aus der Schwelle, an der du
-          gerade stehst.</p>
-        <p>Manchmal ist es eine kleine Handlung in der Natur, ein bewusst gesetzter Schritt, ein Gegenstand, der für
-          einen Übergang steht, oder ein stiller Moment, der eine Entscheidung im eigenen Erleben verankert.</p>
-        <p>Rituale geben dem Unsichtbaren eine Form. Nicht als Symbol, sondern als Handlung.</p>
-      </div>
-    </div>
-
-    <div class="text-center margin-top-large fade-in">
-      <p class="signature" style="margin-top: 60px;">Möchtest du deiner Schwelle in einem Raum begegnen, der dich
-        hält?</p>
-    </div>
-  </div>
-</section>
-
-<section id="wer-ich-bin" class="section-creme">
-  <div class="container">
-    <h2 class="text-center fade-in">Wer ich bin</h2>
-
-    <div class="grid-2-col align-center">
-      <div class="text-block fade-in">
-        <p>Ich bin Sepideh. Ich kenne Brüche. Ich kenne das Gefühl, wenn ein altes Leben endet, bevor ein neues sichtbar
-          ist. Ich kenne Zeiten ohne Struktur, ohne Sicherheit, ohne klaren Boden.</p>
-        <p>Ich begleite Menschen in persönlichen Umbrüchen und tiefen Transformationsphasen, während sie sich
-          erinnern.</p>
-        <p>Ich glaube, dass alles Wesentliche aus dem Inneren entsteht. Nicht durch Optimierung. Nicht durch
-          Selbstkorrektur. Sondern durch ehrliche Begegnung mit dem, was ist. Meine Arbeit beginnt mit Präsenz. Ich
-          halte Räume, in denen etwas stirbt und gleichzeitig etwas geboren wird.</p>
-
-        <p class="signature margin-top-large">Jede Begegnung entsteht neu.<br>Persönlich. Nah. Echt.<br>Meine
-          Ausrichtung ist individuell. Wie du.</p>
-      </div>
-
-      <div class="image-wrapper fade-in">
-        <img src="./img/wer.jpeg" alt="Portrait Sepideh" class="content-image portrait-image">
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="rahmen" class="section-green">
-  <div class="container">
-    <h2 class="text-center fade-in">Rahmen</h2>
-
-    <div class="grid-2-col align-center">
-      <div class="text-block fade-in">
-        <p>Mamani findet in einem einfachen Holzhaus inmitten der Natur statt. Der Ort wird jeweils von mir achtsam und
-          passend zu deinem Prozess gewählt und im Vorfeld bekanntgegeben.</p>
-        <p>Der Aufenthalt ist bewusst auf das Wesentliche reduziert. Für einfache, ehrliche Verpflegung ist gesorgt.</p>
-        <p>Das gemeinsame Sein darf selbstverständlich werden, ob im Tun oder im Lassen. Nichts muss. Vieles ordnet sich
-          von selbst.</p>
-
-        <p style="margin-top: 30px;"><strong>Digital Detox</strong><br>Während des Retreats ruhen elektronische Geräte.
-          Der äussere Lärm darf still werden, damit das Innere wieder hörbar wird.</p>
-        <p>Mamani ist auf eine Person zur gleichen Zeit ausgerichtet. So entsteht ein stiller, geschützter Raum.</p>
-        <p>Jedem Aufenthalt geht ein Kennenlernen voraus, um die gegenseitige Stimmigkeit zu prüfen.</p>
-      </div>
-
-      <div class="image-wrapper fade-in">
-        <img src="./img/rahmen2.jpeg" alt="Rahmen Mamani" class="content-image portrait-image">
-      </div>
-    </div>
-
-    <div class="margin-top-large fade-in">
-      <h3 class="text-center">Verantwortung</h3>
-      <div class="text-block text-center" style="max-width: 800px; margin: 0 auto;">
-        <p>Mamani ist ein Raum für persönliche Übergänge und für Menschen, die bereit sind, sich selbst wahrhaftig zu
-          begegnen.<br>Es ist kein therapeutisches Angebot.</p>
-        <p>Wenn jemand aktuell mit Suchterkrankungen, schweren mentalen Belastungen oder akuten Krisen lebt, kann es
-          sein, dass Mamani nicht der passende Rahmen ist. Zeigt sich im Kennenlerngespräch, dass eine andere Form der
-          Begleitung hilfreicher wäre, empfehle ich gerne entsprechende Fachstellen.</p>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<section id="preise" class="section-creme">
-  <div class="container">
-    <h2 class="text-center fade-in">Formate und Preise</h2>
-    <p class="text-center intro-text fade-in">Mamani ist als 1:1 Intensivbegleitung konzipiert. Reduziert. Naturnah.
-      Bewusst begrenzt. Es ist ein Übergangsraum. Du wählst den Zeitraum, der deinem Prozess entspricht.</p>
-
-    <div class="image-wrapper fade-in margin-bottom-small">
-      <img src="./img/price.jpeg" alt="Der Raum" class="content-image wide-image">
-    </div>
-
-    <div class="pricing-grid">
-      <div class="price-card outline fade-in">
-        <h3>3 Tage / 2 Nächte</h3>
-        <h4 class="sub-heading">Von Unruhe zur Orientierung</h4>
-        <p>Drei Tage sind ein bewusster Schritt aus dem Gewohnten. Ein Innehalten. Ein Ankommen. Der Alltag tritt in den
-          Hintergrund. Gedanken dürfen sich sortieren. Das, was innerlich durcheinander war, bekommt Raum.</p>
-        <p>Drei Tage öffnen einen Übergang. Ohne Ziel. Ohne Erwartung. Nur mit der Bereitschaft, sich selbst zu
-          begegnen.</p>
-      </div>
-
-      <div class="price-card filled fade-in">
-        <h3>5 Tage / 4 Nächte</h3>
-        <h4 class="sub-heading">Von Orientierung zur Tragfähigkeit</h4>
-        <p>Fünf Tage folgen einem anderen Rhythmus. Was in den ersten Tagen sichtbar wird, darf bleiben. Was sich
-          gezeigt hat, darf vertieft werden. Was in Bewegung kam, darf durchlaufen werden.</p>
-        <p>Fünf Tage erlauben Vertiefung in die Tragfähigkeit und eine erste Integration. Um das Durchgehen statt nur
-          Berühren. Das Bleiben, wenn es still oder unruhig wird.</p>
-      </div>
-    </div>
-
-    <div class="addon-card text-center fade-in">
-      <h3>Zusatztag und -nacht</h3>
-      <p>Nicht alles lässt sich im Voraus bestimmen. Wenn der Prozess es verlangt, bleibt der Raum geöffnet.<br>Ein
-        weiterer Tag darf sich anschliessen, wenn sich der Wunsch nach mehr Raum zeigt. Wir stimmen uns gemeinsam ab.
-      </p>
-    </div>
-
-    <p class="text-center highlight-text fade-in">Angebot und individuelle Konditionen werden nach einem persönlichen
-      Erstgespräch besprochen.</p>
-  </div>
-</section>
-
-<section id="kontakt" class="section-green">
-  <div class="container grid-2-col contact-grid">
-
-    <div class="grid-item fade-in contact-terms">
-      <h2>Termin und Rücktritt</h2>
-      <div class="terms-text">
-        <p>Mit der Buchung wird eine Anzahlung von 50 % des Gesamtbetrags fällig. Erst mit Eingang der Anzahlung ist der
-          Aufenthalt verbindlich reserviert.</p>
-        <p>Der Restbetrag ist spätestens zwei Wochen vor Retreatbeginn zu begleichen. Bei einer Absage bis zu diesem
-          Zeitpunkt bleibt die Anzahlung bestehen. Danach wird der volle Betrag fällig, da der Raum exklusiv für dich
-          freigehalten und vorbereitet ist.</p>
-        <p>Im Krankheitsfall ist eine einmalige Verschiebung möglich, sofern die Mitteilung spätestens 48 Stunden vor
-          Retreatbeginn erfolgt. Die Anzahlung wird auf den neuen Termin angerechnet.</p>
-      </div>
-    </div>
-
-    <div class="image-wrapper margin-top-large fade-in contact-image">
-      <img src="./img/contact.jpeg" alt="Kontakt Impression" class="content-image portrait-image">
-    </div>
-
-    <div class="grid-item fade-in contact-info">
-      <h2 class="mobile-margin-top">Kontakt</h2>
-      <div class="terms-text">
-        <p><strong>Vertraulichkeit</strong><br>Alles, was du während deines Aufenthalts teilst, wird von mir vertraulich
-          behandelt. Der Raum von Mamani ist geschützt und bleibt frei von Weitergabe an Dritte.</p>
-        <p>Wenn du spürst, dass Mamani dich ruft, melde dich für ein erstes Kennenlernen. In diesem Gespräch klären wir
-          in Ruhe, ob der Raum für dich und dein Anliegen stimmig ist. Ohne Verpflichtung. Ohne Erwartung.</p>
-        <p>Wenn ich nicht unmittelbar antworte, befinde ich mich gerade in einem Aufenthalt. Schreibe mir gerne per
-          E-Mail und ich melde mich zeitnah bei dir.</p>
-        <p class="signature margin-top-large">Ich freue mich auf dich.</p>
-        <a href="mailto:sepideh_karimi@icloud.com" class="btn-primary" style="margin-top:
+</body>
+</html>
