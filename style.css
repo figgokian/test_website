@@ -2,7 +2,7 @@
    MAMANI RETREAT
    Farben: Creme und Salbei aus dem Logo, dazu ein dunkles
    Tannengrün für gut lesbaren Fliesstext.
-   Schrift: Spectral (Lesetext, Titel), Hanken Grotesk (Bedienung)
+   Schrift: Spectral für alle Texte
    ========================================================= */
 
 :root {
@@ -16,7 +16,7 @@
     /* Alte Namen, falls sie anderswo noch gebraucht werden */
     --green: var(--salbei);
     --serif: 'Spectral', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
-    --sans: 'Hanken Grotesk', 'Helvetica Neue', Arial, sans-serif;
+    --sans: var(--serif);
     --wrap: 1120px;
     --pad: clamp(20px, 5vw, 48px);
     --section: clamp(72px, 11vw, 140px);
